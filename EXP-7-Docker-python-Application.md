@@ -32,7 +32,6 @@ python-project/
 Create a file named `hello.py` with the following content:
 
 ```python
-# hello.py
 # This script prints a simple message to the console
 
 print("Hello World")
