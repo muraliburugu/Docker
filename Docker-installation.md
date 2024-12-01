@@ -13,7 +13,7 @@ docker --version
 
 #### step 2
 
-![Screenshot (10)](https://github.com/user-attachments/assets/437b58ba-780b-49f6-a3dc-5541301abbb7)
+![Screenshot (10)](https://github.com/user-attachments/assets/5b0cc127-edf3-4a96-af3a-1cd82533fd68)
 
 
 
