@@ -104,8 +104,12 @@ docker push <username>/<image_name>:<tag>
 
 ### Steps:
 1. **Tag the image**:
-   ```bash
+
    docker tag <image_id> <username>/<image_name>:<tag>
+
+
+   ```
+   docker tag ubuntu:latest muraliburugu507/sampleapp
    ```
 2. **Login to Docker Hub**:
    ```bash
