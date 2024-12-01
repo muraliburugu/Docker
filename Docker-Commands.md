@@ -15,6 +15,10 @@ Pull an image or a repository from a registry.
 docker pull ubuntu:latest
 ```
 
+```
+docker images
+```
+
 - Downloads the `ubuntu:16.04` image from Docker Hub.
 
 
