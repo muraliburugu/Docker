@@ -5,20 +5,25 @@
 docker --version
 ```
 
-### step 1:
+
+### step-1 ; got to docker website to download
+
+https://docs.docker.com/desktop/setup/install/windows-install/
+
+### step 2:
 
 ![Screenshot (9)](https://github.com/user-attachments/assets/efec5328-d4a4-41ef-b0e0-f456d894eb82)
 
 
 
-#### step 2
+#### step 3 :
 
 ![Screenshot (10)](https://github.com/user-attachments/assets/5b0cc127-edf3-4a96-af3a-1cd82533fd68)
 
 
 
 
-#### step 3
+#### step 4 :
 ![Screenshot (11)](https://github.com/user-attachments/assets/64af2297-b950-4954-9512-2cf1f336bd5b)
 
 
@@ -26,7 +31,7 @@ docker --version
 
 
 
-### step 4:
+### step 5:
 
 ```
 wsl --set-default-version 2
@@ -34,13 +39,11 @@ wsl --set-default-version 2
 ```
 
 
-### step 5 (if we have any problem)
+### step 6 (if we have any problem)
 -----------------------------
 
-```
 https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
 
-```
 
 
 
