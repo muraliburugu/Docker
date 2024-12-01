@@ -1,6 +1,7 @@
-Here is the GitHub Markdown file for the experiment:
+Here’s the complete setup with proper instructions, file contents, and structure.
 
-```markdown
+---
+
 # **Experiment No.: 7**
 
 ## **Aim**
@@ -9,25 +10,38 @@ Develop a simple containerized application using Docker.
 ---
 
 ## **Description**
-This experiment demonstrates how to containerize a simple Python application using Docker. The application is a Python script that prints "Hello World." We will create a Docker image for this application, run it in a container, and verify the output.
+In this experiment, we will create a simple Python application that prints `Hello World` and containerize it using Docker. The steps include writing the Python script, creating a `Dockerfile`, building a Docker image, running the container, and verifying the output.
+
+---
+
+## **Project Structure**
+The project directory should have the following structure:
+
+```
+project-directory/
+├── Dockerfile
+└── hello.py
+```
 
 ---
 
 ## **Steps to Implement**
 
-### 1. **Choose an Application**
-We will create a Python script `hello.py` that prints `Hello World`.
+### **1. Write the Python Script**
 
-### 2. **Write the Python Script**
 Create a file named `hello.py` with the following content:
 
-
-```
+```python
 # hello.py
+# This script prints a simple message to the console
+
 print("Hello World")
 ```
 
-### 3. **Write a Dockerfile**
+---
+
+### **2. Write the Dockerfile**
+
 Create a file named `Dockerfile` in the same directory as `hello.py` with the following content:
 
 ```dockerfile
@@ -44,80 +58,86 @@ WORKDIR /app
 CMD ["python", "hello.py"]
 ```
 
-### 4. **Build the Docker Image**
+---
+
+### **3. Build the Docker Image**
+
 Run the following command in the terminal to build the Docker image:
 
 ```bash
 docker build -t myimage .
 ```
 
-- `-t myimage` tags the image with the name `myimage`.
-- `.` specifies the current directory as the build context.
+- `-t myimage`: Tags the image with the name `myimage`.
+- `.`: Specifies the current directory as the build context.
 
-### 5. **Run the Docker Container**
-Run the container using the following command:
+---
+
+### **4. Run the Docker Container**
+
+Start the container with the following command:
 
 ```bash
 docker run --name mycontainer myimage
 ```
 
-- `--name mycontainer` gives the container a name for easy identification.
-- `myimage` is the image created in the previous step.
+- `--name mycontainer`: Names the container `mycontainer`.
+- `myimage`: Refers to the image created in the previous step.
 
-### 6. **Verify the Output**
-Check the logs of the container to verify the output:
+---
+
+### **5. Verify the Output**
+
+To verify the output, check the container logs using:
 
 ```bash
 docker logs mycontainer
 ```
 
-The logs should display:
+You should see the following output:
 
 ```
 Hello World
 ```
-
----
-
-## **Experiment Summary**
-This experiment covered the following:
-1. Writing a basic Python script.
-2. Creating a `Dockerfile` to containerize the application.
-3. Building a Docker image and running it as a container.
-4. Verifying the container's output using Docker logs.
-
-This simple example provides a foundation for understanding Docker's core concepts and prepares for more complex applications involving multi-container setups, networking, and data persistence.
 
 ---
 
 ## **Files**
-1. `hello.py` - The Python application.
-2. `Dockerfile` - The configuration file to build the Docker image.
+
+### **hello.py**
+
+```python
+# hello.py
+# This script prints a simple message to the console
+
+print("Hello World")
+```
+
+### **Dockerfile**
+
+```dockerfile
+# Use the official Python image as the base image
+FROM python:3.9
+
+# Copy the Python script into the container
+COPY hello.py /app/
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Run the Python script when the container starts
+CMD ["python", "hello.py"]
+```
 
 ---
 
-## **Commands Summary**
-1. Build the Docker image:
-    ```bash
-    docker build -t myimage .
-    ```
+## **Summary**
 
-2. Run the Docker container:
-    ```bash
-    docker run --name mycontainer myimage
-    ```
+This experiment demonstrated:
+1. Writing a simple Python application.
+2. Creating a `Dockerfile` to define a containerized environment.
+3. Building a Docker image.
+4. Running the application in a container.
+5. Verifying the output.
 
-3. View container logs:
-    ```bash
-    docker logs mycontainer
-    ```
-
----
-
-## **Output**
-When the container runs successfully, the following output is displayed:
-
-```
-Hello World
-```
-```
+This lays the groundwork for containerizing more complex applications and deploying them efficiently.
