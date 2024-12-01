@@ -5,11 +5,22 @@ Below is the GitHub-flavored Markdown content you can use to document the Docker
 
 # Docker Commands for Content Management
 
-Docker is a containerization platform that simplifies application deployment. This document covers the essential Docker commands for managing containers and images.
+Docker is a containerization platform that simplifies application deployment. This document covers the essential Docker commands for managing containers and images.\
+
+
+## **1. Docker Pull**
+Pull an image or a repository from a registry.
+
+```bash
+docker pull ubuntu:16.04
+```
+
+- Downloads the `ubuntu:16.04` image from Docker Hub.
+
 
 ---
 
-## **1. Docker Run**
+## **2. Docker Run**
 Run a command in a new container.
 
 ```bash
@@ -23,7 +34,7 @@ docker run --name mycontainer -it ubuntu:16.04 /bin/bash
 
 ---
 
-## **2. Docker Start**
+## **3. Docker Start**
 Start one or more stopped containers.
 
 ```bash
@@ -34,7 +45,7 @@ docker start mycontainer
 
 ---
 
-## **3. Docker Stop**
+## **4. Docker Stop**
 Stop one or more running containers.
 
 ```bash
@@ -45,7 +56,7 @@ docker stop mycontainer
 
 ---
 
-## **4. Docker RM**
+## **5. Docker RM**
 Remove one or more stopped containers.
 
 ```bash
@@ -56,7 +67,7 @@ docker rm mycontainer
 
 ---
 
-## **5. Docker Images**
+## **6. Docker Images**
 List all available images.
 
 ```bash
@@ -67,18 +78,9 @@ docker images
 
 ---
 
-## **6. Docker Pull**
-Pull an image or a repository from a registry.
-
-```bash
-docker pull ubuntu:16.04
-```
-
-- Downloads the `ubuntu:16.04` image from Docker Hub.
-
 ---
 
-## **7. Docker Push**
+## **8. Docker Push**
 Push an image or a repository to a registry.
 
 ```bash
@@ -101,7 +103,7 @@ docker push <username>/<image_name>:<tag>
 
 ---
 
-## **8. Additional Commands**
+## **9. Additional Commands**
 
 ### **List Running Containers**
 ```bash
