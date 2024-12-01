@@ -122,9 +122,9 @@ docker push <username>/<image_name>:<tag>
     ```
 
 
-    ```bash
+   
    docker push <username>/<image_name>
-   ```
+
 
 ---
 
