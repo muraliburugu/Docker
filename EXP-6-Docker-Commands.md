@@ -128,6 +128,15 @@ docker push <username>/<image_name>:<tag>
 
 ---
 
+
+
+ Clean Everything (Optional)
+To clean up everything (containers, images, volumes, and networks), use:
+
+```bash
+docker system prune -a
+```
+
 ## **9. Additional Commands**
 
 ### **List Running Containers**
