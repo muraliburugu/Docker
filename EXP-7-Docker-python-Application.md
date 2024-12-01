@@ -21,7 +21,8 @@ We will create a Python script `hello.py` that prints `Hello World`.
 ### 2. **Write the Python Script**
 Create a file named `hello.py` with the following content:
 
-```python
+
+```
 # hello.py
 print("Hello World")
 ```
