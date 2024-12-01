@@ -1,3 +1,25 @@
+
+
+#### docker version check
+```
+docker --version
+```
+![Screenshot (10)](https://github.com/user-attachments/assets/437b58ba-780b-49f6-a3dc-5541301abbb7)
+
+![Screenshot (9)](https://github.com/user-attachments/assets/efec5328-d4a4-41ef-b0e0-f456d894eb82)
+
+
+![Uploading Screenshot (11).png…]()
+
+
+
+
+
+
+
+###### for ubuntu installation
+
+
  ### docker installation commandas
 
  ```
@@ -23,15 +45,6 @@ To install the latest version, run:
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 ```
-
-
-#### docker version check
-```
-docker --version
-```
-![Screenshot (10)](https://github.com/user-attachments/assets/437b58ba-780b-49f6-a3dc-5541301abbb7)
-
-![Screenshot (9)](https://github.com/user-attachments/assets/efec5328-d4a4-41ef-b0e0-f456d894eb82)
 
 
 
