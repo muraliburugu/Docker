@@ -105,7 +105,7 @@ docker push <username>/<image_name>:<tag>
 ### Steps:
 1. **Tag the image**:
 
-   docker tag imagename:version <username>/imagename
+   docker tag image_name:version  username/image_name
 
 
    ```
@@ -123,7 +123,7 @@ docker push <username>/<image_name>:<tag>
 
 
    
-   docker push <username>/<image_name>
+   docker push username/image_name
 
 
 ---
