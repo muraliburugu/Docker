@@ -18,7 +18,7 @@ In this experiment, we will create a simple Python application that prints `Hell
 The project directory should have the following structure:
 
 ```
-project-directory/
+python-project/
 ├── Dockerfile
 └── hello.py
 ```
