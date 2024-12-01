@@ -34,6 +34,15 @@ wsl --set-default-version 2
 ```
 
 
+### step 5 (if we have any problem)
+-----------------------------
+
+```
+https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
+```
+
+
 
 
 
