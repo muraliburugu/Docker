@@ -33,7 +33,7 @@ docker run --name mycontainer -it ubuntu:latest /bin/bash
 
 - **`--name mycontainer`**: Names the container `mycontainer`.
 - **`-it`**: Runs the container interactively.
-- **`ubuntu:16.04`**: Specifies the base image.
+- **`ubuntu:latest`**: Specifies the base image.
 - **`/bin/bash`**: Starts a bash shell.
 
 ---
