@@ -5,17 +5,20 @@
 docker --version
 ```
 
+### step 1:
+
 ![Screenshot (9)](https://github.com/user-attachments/assets/efec5328-d4a4-41ef-b0e0-f456d894eb82)
 
 
 
+#### step 2
 
 ![Screenshot (10)](https://github.com/user-attachments/assets/437b58ba-780b-49f6-a3dc-5541301abbb7)
 
 
 
 
-
+#### step 3
 ![Screenshot (11)](https://github.com/user-attachments/assets/64af2297-b950-4954-9512-2cf1f336bd5b)
 
 
@@ -23,6 +26,12 @@ docker --version
 
 
 
+### step 4:
+
+```
+wsl --set-default-version 2
+
+```
 
 
 
@@ -31,7 +40,18 @@ docker --version
 
 
 
-###### for ubuntu installation
+
+
+
+
+
+
+
+
+
+
+
+### for ubuntu installation
 
 
  ### docker installation commandas
