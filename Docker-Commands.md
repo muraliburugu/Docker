@@ -30,6 +30,17 @@ Run a command in a new container.
 ```bash
 docker run --name mycontainer -it ubuntu:latest /bin/bash
 ```
+## if want see running containers
+
+```
+docker ps
+```
+
+### if want to see stoped container and ruuning container 
+
+```
+docker ps -a
+```
 
 - **`--name mycontainer`**: Names the container `mycontainer`.
 - **`-it`**: Runs the container interactively.
