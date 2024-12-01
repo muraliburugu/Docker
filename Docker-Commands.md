@@ -12,7 +12,7 @@ Docker is a containerization platform that simplifies application deployment. Th
 Pull an image or a repository from a registry.
 
 ```bash
-docker pull ubuntu:16.04
+docker pull ubuntu:latest
 ```
 
 - Downloads the `ubuntu:16.04` image from Docker Hub.
@@ -24,7 +24,7 @@ docker pull ubuntu:16.04
 Run a command in a new container.
 
 ```bash
-docker run --name mycontainer -it ubuntu:16.04 /bin/bash
+docker run --name mycontainer -it ubuntu:latest /bin/bash
 ```
 
 - **`--name mycontainer`**: Names the container `mycontainer`.
