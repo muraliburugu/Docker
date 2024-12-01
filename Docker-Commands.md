@@ -105,7 +105,7 @@ docker push <username>/<image_name>:<tag>
 ### Steps:
 1. **Tag the image**:
 
-   docker tag <image_id> <username>/<image_name>:<tag>
+   docker tag imagename:version <username>/imagename
 
 
    ```
@@ -116,8 +116,14 @@ docker push <username>/<image_name>:<tag>
    docker login
    ```
 3. **Push the image**:
-   ```bash
-   docker push <username>/<image_name>:<tag>
+
+    ```
+    docker push muraliburugu507/sampleapp
+    ```
+
+
+    ```bash
+   docker push <username>/<image_name>
    ```
 
 ---
